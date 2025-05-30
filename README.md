@@ -13,11 +13,11 @@ Each algorithm computes the following performance metrics:
 # How to Run the Code 
 1. Compile the Code: Open a terminal and navigate to the project directory.
 Use the following command to compile the code:
-```    make ```
+```make ```
 2. Run the Test Cases: After compiling, run the test cases using:
-```    make run ```
+```make run ```
 3. Clean Up: To remove compiled files, use:
-```    make clean ```
+```make clean ```
 # Inputs and Outputs 
 Inputs: The program uses predefined test cases within the scheduler_test.c file. Each test case consists of an array of processes, where each process has:
 pid: Process ID 
