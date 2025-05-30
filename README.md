@@ -13,11 +13,11 @@ Each algorithm computes the following performance metrics:
 # How to Run the Code 
 1. Compile the Code: Open a terminal and navigate to the project directory.
 Use the following command to compile the code:
-```bash    make ```
+```    make ```
 2. Run the Test Cases: After compiling, run the test cases using:
-```bash    make run ```
+```    make run ```
 3. Clean Up: To remove compiled files, use:
-```bash    make clean ```
+```    make clean ```
 # Inputs and Outputs 
 Inputs: The program uses predefined test cases within the scheduler_test.c file. Each test case consists of an array of processes, where each process has:
 pid: Process ID 
@@ -28,6 +28,6 @@ Outputs: The program outputs the calculated and expected values for average turn
 
 Sample Output for Each Algorithm 
 Test Case 1 
-```bash ==== Test Case 1 ==== FCFS: Calculated: Turnaround: 15.00, Waiting: 7.33, Response: 7.33       Expected:   Turnaround: 15.00, Waiting: 7.33, Response: 7.33 SJF:  Calculated: Turnaround: 15.00, Waiting: 7.33, Response: 7.33       Expected:   Turnaround: 15.00, Waiting: 7.33, Response: 7.33 RR (Quantum = 4): Calculated: Turnaround: 19.33, Waiting: 11.67, Response: 3.00          Expected:   Turnaround: 19.33, Waiting: 11.67, Response: 3.00 >>> Test Case 1 PASSED. ```  
+``` ==== Test Case 1 ==== FCFS: Calculated: Turnaround: 15.00, Waiting: 7.33, Response: 7.33       Expected:   Turnaround: 15.00, Waiting: 7.33, Response: 7.33 SJF:  Calculated: Turnaround: 15.00, Waiting: 7.33, Response: 7.33       Expected:   Turnaround: 15.00, Waiting: 7.33, Response: 7.33 RR (Quantum = 4): Calculated: Turnaround: 19.33, Waiting: 11.67, Response: 3.00          Expected:   Turnaround: 19.33, Waiting: 11.67, Response: 3.00 >>> Test Case 1 PASSED. ```  
 Test Case 2 
-```bash ==== Test Case 2 ==== FCFS: Calculated: Turnaround: 5.67, Waiting: 1.67, Response: 1.67       Expected:   Turnaround: 5.67, Waiting: 1.67, Response: 1.67 SJF:  Calculated: Turnaround: 5.67, Waiting: 1.67, Response: 1.67       Expected:   Turnaround: 5.67, Waiting: 1.67, Response: 1.67 RR (Quantum = 2): Calculated: Turnaround: 5.67, Waiting: 1.67, Response: 1.00          Expected:   Turnaround: 5.67, Waiting: 1.67, Response: 1.00 >>> Test Case 2 PASSED. ```
+``` ==== Test Case 2 ==== FCFS: Calculated: Turnaround: 5.67, Waiting: 1.67, Response: 1.67       Expected:   Turnaround: 5.67, Waiting: 1.67, Response: 1.67 SJF:  Calculated: Turnaround: 5.67, Waiting: 1.67, Response: 1.67       Expected:   Turnaround: 5.67, Waiting: 1.67, Response: 1.67 RR (Quantum = 2): Calculated: Turnaround: 5.67, Waiting: 1.67, Response: 1.00          Expected:   Turnaround: 5.67, Waiting: 1.67, Response: 1.00 >>> Test Case 2 PASSED. ```
