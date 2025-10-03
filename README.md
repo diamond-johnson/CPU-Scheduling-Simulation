@@ -1,6 +1,6 @@
 # CPU Scheduling Simulation
 This project implements three fundamental CPU scheduling algorithms in C.
-
+ 
 # Algorithms Implemented:
 1. FCFS (First Come First Serve)
 2. SJF (Shortest Job First - Non-Preemptive)
